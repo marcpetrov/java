@@ -13,6 +13,10 @@ public class Arrays {
         System.out.println("arrayCreation :: ");
         arrayCreation();
 
+        System.out.println("printCharactersFromAString :: ");
+        printCharactersFromAString();
+
+
     }
 
     public static void printArrayOfNumbers() {
@@ -46,4 +50,14 @@ public class Arrays {
 
 
     }
+
+    public static void printCharactersFromAString() {
+        String text = "Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book...";
+
+        for (char c : text.toCharArray()) {
+            System.out.print(c);
+        }
+    }
+
+
 }
